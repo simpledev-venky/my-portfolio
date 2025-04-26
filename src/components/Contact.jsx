@@ -50,7 +50,7 @@ export default function Contact() {
          </p>
          <div className="relative mb-4">
 
-          <input type="hidden" name="access_key" value="29538886-9c62-429b-bcd4-14b306784d48"/>
+          <input type="hidden" name="access_key" value={import.meta.env.VITE_WEB3FORMS_API_KEY}/>
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
